@@ -1,5 +1,5 @@
 var point = 6.5;
-if (point < 0 || point > 10 || typeof point !== "number") {
+if (typeof point !== "number" || point < 0 || point > 10) {
   console.log(
     "Điểm là giá trị số và thuộc từ 0 đến 10. Mời nhập lại điểm của học sinh."
   );
